@@ -180,6 +180,48 @@
             font-size: x-small;
         }
 
+        .yy {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            display: flex;
+            white-space: nowrap;
+        }
+
+        .xx {
+            height: 100vh;
+            border: 1px solid black;
+            width: 150px;
+            height: 200px;
+            margin: auto;
+            /* border-radius: 50%; */
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            padding: 0%;
+        }
+
+        .lbb {
+            font-size: x-small;
+        }
+
+        .xxx {
+            height: 100vh;
+            /* border: 1px solid black; */
+            width: 250px;
+            height: 250px;
+            margin: auto;
+            /* border-radius: 50%; */
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            padding: 0%;
+        }
+
         .image-container1 {
             padding-top: 2rem;
             padding-left: 11rem;
@@ -202,6 +244,7 @@
             white-space: wrap;
             font-size: 0.6rem;
         }
+
         .image-container1 .image-text1 {
             text-align: center;
             margin-top: 10px;
@@ -226,14 +269,20 @@
         }
 
         .articles>.card>img {
-            width: 300px;
+            width: 220px;
             object-fit: contain;
         }
 
         @media screen and (max-width: 1000px) {
             .articles>.card {
                 flex-direction: column;
-                height: fit-content
+                height: fit-content;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .articles>.card>img {
+                width: 200px;
             }
         }
     </style>
@@ -258,13 +307,13 @@
             <div class="circle">
                 <img src="https://rameshys.s3.eu-north-1.amazonaws.com/img/vikas.jpg" alt="Founder 1">
             </div>
-            <p class="text"><B>VIKAS P KAPUGANTI </B><BR> CEO </p>
+            <p class="text"><B>VIKAS KAPUGANTI </B><br> Chief Executive Officer(CEO) </p>
         </div>
         <div class="founder-container">
             <div class="circle">
                 <img src="https://rameshys.s3.eu-north-1.amazonaws.com/img/mahidar.jpg" alt="Founder 2">
             </div>
-            <p class="text"><b>PONNADA MAHIDHAR</b> <BR> CO-FOUNDER & CMO</p>
+            <p class="text"><b>PONNADA MAHIDHAR</b> <BR> CO-FOUNDER & Chief Marketing Officer(CMO)</p>
         </div>
     </div>
     <br>
@@ -323,39 +372,39 @@
     </div>
     <br>
     <h1 style="text-align:center">OUR TEAM</h1>
-    <div class="y">
+    <div class="yy">
         <figure>
             <a href="https://www.linkedin.com/in/srinivasa-rao-peri-2ab17925/?originalSubdomain=in">
-                <img src="#" class="x">
+                <img src="IMG_1053.JPG" class="xx">
             </a>
             <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">
-                <nbsp> Prof. P. Srinivasa Rao </nbsp>
-                <div class="lb">(Dept. Of CSE)</div>
+                <nbsp>Brijesh</nbsp>
+                <div class="lbb">(Chief Development Officer)</div>
             </figcaption>
         </figure>
         <figure>
             <a href="https://www.linkedin.com/in/paul-douglas-5b8b8219/?originalSubdomain=in">
-                <img src="#" class="x">
+                <img src="IMG_1052.JPG" class="xx">
             </a>
-            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">Prof. Paul Douglas<div
-                    class="lb">(Dept. Of Chemical Engineering)</div>
+            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">Smruthi<div class="lbb">(Chief
+                    Organisation Officer)</div>
             </figcaption>
         </figure>
 
         <figure>
             <a href="https://www.linkedin.com/in/lalitha-bhaskari-dhavala-4280631/?originalSubdomain=in">
-                <img src="#" class="x">
+                <img src="shoukath.JPG" class="xx">
             </a>
-            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;"> Prof. D. Lalitha Bhaskari <div
-                    class="lb">(Chairman - Board Of Studies CSSE)<br>(IQAC Coordinator AU)</div>
+            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">Shoukath<div class="lbb">(Chief
+                    Technological Officer)</div>
             </figcaption>
         </figure>
         <figure>
             <a href="https://www.linkedin.com/in/mallikarjuna-rao-pasumarthi-b4322113/?originalSubdomain=in">
-                <img src="#" class="x">
+                <img src="sowmya.JPG" class="xx">
             </a>
-            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">Prof. P. Mallikarjun Rao<div
-                    class="lb">(HOD - Dept. Of Electrical Engineering, AU)</div>
+            <figcaption style="text-align: center;  font-size: 15px; font-weight: bold;">Sowmya<div class="lbb">(Chief
+                    Event Designer)</div>
             </figcaption>
         </figure>
     </div>
@@ -382,6 +431,31 @@
                     CELL & AICTE <br> GOVT OF INDIA)</p>
             </div>
         </div>
+    </div>
+    <br>
+    <h1 style="text-align:center">OUR EXTENDED FAMILY</h1>
+    <div class="yy">
+        <figure>
+            <a href="#">
+                <img src="pic11.jpg" class="xxx">
+            </a>
+        </figure>
+        <figure>
+            <a href="#">
+                <img src="pic12.jpg" class="xxx">
+            </a>
+        </figure>
+
+        <figure>
+            <a href="#">
+                <img src="pic13.jpg" class="xxx">
+            </a>
+        </figure>
+        <figure>
+            <a href="#">
+                <img src="pic14.webp" class="xxx">
+            </a>
+        </figure>
     </div>
     <br>
     <h1 style="text-align: center; padding-top: 2%;">Colleges Trusted</h1>
@@ -511,7 +585,8 @@
                 <img src="https://t3.gstatic.com/images?q=tbn:ANd9GcQO1ZX6i2hH9F_aHXrxs6BVXlVOppJATAZUj8E_OTM3lESpfRbk">
         </figure> </a>
         <figure><a href="https://www.aicte-india.org/">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRA9HRlwoO_lVvpr2fsREiAYS_kGMM8ioNHXGG2QqARvJx74J1y" width="400px">
+                <img
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRA9HRlwoO_lVvpr2fsREiAYS_kGMM8ioNHXGG2QqARvJx74J1y">
         </figure>
         </figure></a>
     </div>
@@ -563,5 +638,4 @@
         </div>
     </div>
 </body>
-
 </html>
